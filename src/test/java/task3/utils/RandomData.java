@@ -1,7 +1,7 @@
 package task3.utils;
 
 public class RandomData {
-
+// hi!
     private RandomData(){
 
     }
