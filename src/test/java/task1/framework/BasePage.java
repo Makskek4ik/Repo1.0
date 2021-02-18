@@ -9,7 +9,8 @@ public abstract class BasePage {
     public BasePage() {
     }
 
-    public void getURL(){
+    public void getURL() {
         browser.getURL();
     }
+
 }
