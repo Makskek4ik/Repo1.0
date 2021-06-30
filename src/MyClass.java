@@ -1,10 +1,8 @@
 public class MyClass {
 
     public static void main(String[] args) {
-        sayHi();
-    }
-
-    public static void sayHi() {
-        System.out.println("hi");
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Math.random() * 10);
+        }
     }
 }
