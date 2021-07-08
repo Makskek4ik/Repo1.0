@@ -1,13 +1,27 @@
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class TestClass {
 
     @Test
     public void testCase1() {
 
-        for (int i = 0; i < 40; i++) {
-            System.out.println(i*i);
-        }
+    }
+
+    @Test
+    public void testCase2() {
+        assertTrue(false);
+    }
+
+    @Test
+    public void testCase3() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void testCase4() {
+        throw new RuntimeException();
     }
 
 }
